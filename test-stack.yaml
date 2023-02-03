@@ -9,10 +9,6 @@ Resources:
       SecurityGroups:
         - !Ref HTTPSecurityGroup
       Tags:
-        - Key: git_modifiers
-          Value: pvondemhagen
-        - Key: git_last_modified_by
-          Value: pvondemhagen@yahoo.com
         - Key: git_last_modified_at
           Value: "2023-02-02 18:25:40"
         - Key: git_file
@@ -20,7 +16,6 @@ Resources:
         - Key: git_commit
           Value: 6cf903caad10c2d01f2d78ac0401123419c06fb7
         - Key: yor_trace
-          Value: 49ad8d3c-a704-4659-9be0-475469021c44
         - Key: git_repo
           Value: aws_cloud_formation_4
         - Key: git_org
