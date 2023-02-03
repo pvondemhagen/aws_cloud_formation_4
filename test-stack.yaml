@@ -16,15 +16,10 @@ Resources:
         - Key: git_commit
           Value: 6cf903caad10c2d01f2d78ac0401123419c06fb7
         - Key: yor_trace
-          Value: b8caad4d-f8f3-406e-b6fb-a5d1c815b179
         - Key: git_repo
           Value: aws_cloud_formation_4
         - Key: git_org
           Value: pvondemhagen
-        - Key: git_modifiers
-          Value: pvondemhagen
-        - Key: git_last_modified_by
-          Value: pvondemhagen@yahoo.com
   HTTPSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -39,6 +34,10 @@ Resources:
         IpProtocol: tcp
         ToPort: 443
       Tags:
+        - Key: git_repo
+          Value: aws_cloud_formation_4
+        - Key: git_org
+          Value: pvondemhagen
         - Key: git_modifiers
           Value: pvondemhagen
         - Key: git_last_modified_by
@@ -50,8 +49,4 @@ Resources:
         - Key: git_commit
           Value: 6cf903caad10c2d01f2d78ac0401123419c06fb7
         - Key: yor_trace
-          Value: 4f8573a2-64a3-4d8a-ad14-aa5d6a2f656b
-        - Key: git_repo
-          Value: aws_cloud_formation_4
-        - Key: git_org
-          Value: pvondemhagen
+          Value: f9514e46-772a-46fc-89dd-b44b47408568
